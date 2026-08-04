@@ -16,6 +16,7 @@ A repository for hosting HTML pages and other marketing materials for R packages
 | [healthyR.ts](https://github.com/spsanderson/healthyR.ts) | Time-series analysis for healthcare | [![CRAN](https://www.r-pkg.org/badges/version/healthyR.ts)](https://cran.r-project.org/package=healthyR.ts) |
 | [healthyR.ai](https://github.com/spsanderson/healthyR.ai) | Machine learning helpers for healthcare | [![CRAN](https://www.r-pkg.org/badges/version/healthyR.ai)](https://cran.r-project.org/package=healthyR.ai) |
 | [TidyDensity](https://github.com/spsanderson/TidyDensity) | Tidy density estimation and simulation | [![CRAN](https://www.r-pkg.org/badges/version/TidyDensity)](https://cran.r-project.org/package=TidyDensity) |
+| [RandomWalker](https://github.com/spsanderson/RandomWalker) | Generate random walks and simulate stochastic processes | [![CRAN](https://www.r-pkg.org/badges/version/RandomWalker)](https://cran.r-project.org/package=RandomWalker) |
 | [tidyAML](https://github.com/spsanderson/tidyAML) | Automated machine learning with tidymodels | [![CRAN](https://www.r-pkg.org/badges/version/tidyAML)](https://cran.r-project.org/package=tidyAML) |
 | [steveondata](https://github.com/spsanderson/steveondata) | Blog and code snippets from Steve On Data | [![Blog](https://img.shields.io/badge/Blog-steveondata-blue)](https://www.spsanderson.com/steveondata/) |
 
