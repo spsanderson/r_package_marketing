@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="TidyDensity is an R package for tidy-friendly density estimation, random-variate simulation, and distribution fitting with 35+ distributions." />
+  <title>TidyDensity Package Spotlight</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<header>
+  <h1>TidyDensity Package Spotlight</h1>
+  <p>Streamline statistical workflows with tidy probability distributions and simulation.</p>
+</header>
+
+<main>
+  <section>
+    <h2>Overview</h2>
+    <div class="feature-card hero-card">
+      <h3>Master your statistical workflow with TidyDensity</h3>
+      <p>
+        TidyDensity is the ultimate R package for working with probability distributions in a tidy,
+        pipeable framework. Effortlessly integrate 35+ distributions into your pipelines with structured
+        tibble outputs and publication-ready visualizations.
+      </p>
+      <p>
+        <a href="index.html">&larr; Back to the main package site</a>
+      </p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Highlights</h2>
+    <div class="feature-grid">
+      <div class="feature-card">
+        <h3>35+ Distributions</h3>
+        <p>Access a comprehensive library of probability distributions — from normal and beta to Weibull and Cauchy — all returning tidy tibbles.</p>
+      </div>
+      <div class="feature-card">
+        <h3>Tidy-First Design</h3>
+        <p>Native compatibility with pipes and tidy data structures means TidyDensity fits naturally into any tidyverse-based workflow.</p>
+      </div>
+      <div class="feature-card">
+        <h3>Simulation &amp; Fitting</h3>
+        <p>Generate random variates, estimate densities, and fit distributions to your data — all with a consistent, intuitive API.</p>
+      </div>
+      <div class="feature-card">
+        <h3>Publication-Ready Plots</h3>
+        <p>Built-in visualization helpers produce clear, informative distribution plots suitable for reports and presentations.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Why TidyDensity?</h2>
+    <div class="feature-card">
+      <p>
+        Traditional distribution functions in R return vectors that require extra wrangling before they
+        can be used in a modern data pipeline. TidyDensity changes that by always returning a structured
+        tibble, so you can immediately pipe results into <code>dplyr</code>, <code>ggplot2</code>, or
+        any other tidyverse tool without any friction.
+      </p>
+      <p>
+        Whether you are running Monte Carlo simulations, fitting distributions to observed data, or
+        simply need a quick density estimate, TidyDensity gives you a single, coherent interface that
+        stays out of your way.
+      </p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Get Started</h2>
+    <div class="feature-grid">
+      <div class="feature-card">
+        <h3><a href="https://cran.r-project.org/package=TidyDensity" target="_blank" rel="noopener">Install from CRAN</a></h3>
+        <p>The latest stable release of TidyDensity is available on CRAN. Install it with <code>install.packages("TidyDensity")</code>.</p>
+      </div>
+      <div class="feature-card">
+        <h3><a href="https://github.com/spsanderson/TidyDensity" target="_blank" rel="noopener">Source on GitHub</a></h3>
+        <p>Browse the source code, open issues, and contribute on GitHub.</p>
+      </div>
+      <div class="feature-card">
+        <h3><a href="https://www.spsanderson.com/TidyDensity/" target="_blank" rel="noopener">Package Documentation</a></h3>
+        <p>Full function reference, vignettes, and usage examples are available in the pkgdown documentation site.</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <p>
+    &copy; <span id="yr"></span> Steven P. Sanderson II &mdash;
+    <a href="https://github.com/spsanderson" target="_blank" rel="noopener">GitHub</a> &middot;
+    <a href="https://www.spsanderson.com/steveondata/" target="_blank" rel="noopener">Blog</a>
+  </p>
+  <script>document.getElementById('yr').textContent = new Date().getFullYear();</script>
+</footer>
+
+</body>
+</html>
