@@ -1,97 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RandomWalker R Package</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        brand: {
-                            50: '#f0f9ff',
-                            500: '#0ea5e9',
-                            900: '#0c4a6e',
-                        },
-                        dark: '#0a0a0c',
-                    },
-                    fontFamily: {
-                        display: ['Inter', 'ui-sans-serif', 'system-ui'],
-                        body: ['Inter', 'ui-sans-serif', 'system-ui'],
-                    }
-                }
-            }
-        }
-    </script>
-    <style>
-        body {
-            background-color: #0a0a0c;
-            color: white;
-            font-family: 'Inter', sans-serif;
-        }
-        .glass {
-            background: rgba(255, 255, 255, 0.03);
-            backdrop-filter: blur(12px);
-            border: 1px solid rgba(255, 255, 255, 0.1);
-        }
-        .gradient-text {
-            background: linear-gradient(135deg, #38bdf8 0%, #818cf8 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="RandomWalker is an R package for generating, visualizing, and analyzing multi-dimensional random walks in tidyverse workflows." />
+  <title>RandomWalker Package Spotlight</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
-<body class="min-h-screen flex items-center justify-center p-6 md:p-12">
+<body>
 
-    <main class="max-w-5xl w-full grid grid-cols-1 md:grid-cols-12 gap-6">
-        
-        <!-- Hero Section -->
-        <header class="md:col-span-12 glass p-8 md:p-12 rounded-3xl mb-4 text-center">
-            <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight mb-6">
-                Master Stochastic Simulations with <span class="gradient-text">RandomWalker</span>
-            </h1>
-            <p class="text-lg md:text-xl text-gray-400 max-w-2xl mx-auto leading-relaxed">
-                Experience the power of a tidy-first design. Generate, visualize, and analyze multi-dimensional random walks directly within your existing tidyverse workflow.
-            </p>
-        </header>
+<header>
+  <h1>RandomWalker Package Spotlight</h1>
+  <p>Generate, visualize, and analyze multi-dimensional random walks in a tidy-first workflow.</p>
+</header>
 
-        <!-- Bento Grid -->
-        <section class="md:col-span-7 glass p-6 rounded-3xl flex flex-col justify-center">
-            <h2 class="text-2xl font-bold mb-4 flex items-center gap-2">
-                <span class="w-2 h-8 bg-sky-500 rounded-full block"></span>
-                The Power of Tidy
-            </h2>
-            <p class="text-gray-300 text-lg leading-relaxed">
-                The <code class="bg-white/10 px-2 py-1 rounded text-sky-400 font-mono">RandomWalker</code> package integrates seamlessly into your data pipeline. No more fragmented workflows—handle complex stochastic processes with the same syntax you use for data manipulation, cleaning, and visualization. It's built for speed, scalability, and ease of use.
-            </p>
-        </section>
+<main>
+  <section>
+    <h2>Overview</h2>
+    <div class="feature-card hero-card">
+      <h3>Master stochastic simulations with RandomWalker</h3>
+      <p>
+        RandomWalker is designed for analysts and data scientists who want to work with stochastic processes
+        using familiar tidyverse patterns. It helps bring simulation, exploration, and visualization together
+        in a workflow that feels consistent with modern R data analysis.
+      </p>
+      <p>
+        <a href="index.html">&larr; Back to the main package site</a>
+      </p>
+    </div>
+  </section>
 
-        <!-- Media Component -->
-        <section class="md:col-span-5 glass p-2 rounded-3xl overflow-hidden hover:scale-[1.02] transition-transform duration-500">
-            <div class="rounded-2xl overflow-hidden h-full">
-                <video src='https://opal.google/board/blobs/2d185806-798a-460e-8458-67706c18a17a' alt='RandomWalker Demonstration' class="w-full h-full object-cover" controls playsinline></video>
-            </div>
-        </section>
+  <section>
+    <h2>Highlights</h2>
+    <div class="feature-grid">
+      <div class="feature-card">
+        <h3>Tidy-First Design</h3>
+        <p>Native compatibility with pipes and tidy data structures for a smoother coding experience.</p>
+      </div>
+      <div class="feature-card">
+        <h3>Multi-Dimensional Simulation</h3>
+        <p>Easily simulate random walks across multiple dimensions with a workflow geared toward scale.</p>
+      </div>
+      <div class="feature-card">
+        <h3>Visual Insight</h3>
+        <p>Use built-in plotting approaches to explore trajectories and statistical behavior more quickly.</p>
+      </div>
+    </div>
+  </section>
 
-        <!-- Features Bar -->
-        <div class="md:col-span-12 grid grid-cols-1 md:grid-cols-3 gap-6 mt-4">
-            <div class="glass p-6 rounded-2xl border-l-4 border-l-sky-500">
-                <h3 class="font-bold text-xl mb-2">Tidy-First Design</h3>
-                <p class="text-sm text-gray-400">Native compatibility with pipes and tibbles for a smoother coding experience.</p>
-            </div>
-            <div class="glass p-6 rounded-2xl border-l-4 border-l-indigo-500">
-                <h3 class="font-bold text-xl mb-2">Multi-Dimensional</h3>
-                <p class="text-sm text-gray-400">Easily simulate walks across n-dimensions with high-performance C++ backend.</p>
-            </div>
-            <div class="glass p-6 rounded-2xl border-l-4 border-l-emerald-500">
-                <h3 class="font-bold text-xl mb-2">Visual Insight</h3>
-                <p class="text-sm text-gray-400">Built-in plotting functions to visualize trajectories and statistical properties instantly.</p>
-            </div>
-        </div>
+  <section>
+    <h2>Why it fits the tidyverse</h2>
+    <div class="feature-card">
+      <p>
+        The package is built to integrate into existing data pipelines, making it easier to move from data
+        preparation to simulation and then to visualization without switching mental models or tooling styles.
+        This makes RandomWalker a strong fit for exploratory analysis, teaching, and experimentation.
+      </p>
+    </div>
+  </section>
+</main>
 
-    </main>
+<footer>
+  <p>
+    &copy; <span id="yr"></span> Steven P. Sanderson II &mdash;
+    <a href="https://github.com/spsanderson" target="_blank" rel="noopener">GitHub</a> &middot;
+    <a href="https://www.spsanderson.com/steveondata/" target="_blank" rel="noopener">Blog</a>
+  </p>
+  <script>document.getElementById('yr').textContent = new Date().getFullYear();</script>
+</footer>
 
 </body>
 </html>
