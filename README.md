@@ -1,4 +1,4 @@
-# r_package_marketing
+# My R Package Marketing
 
 A repository for hosting HTML pages and other marketing materials for R packages by [@spsanderson](https://github.com/spsanderson).
 
